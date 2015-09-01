@@ -1,3 +1,21 @@
+# lolcommits (forked by nickw444)
+This fork adds a new plugin for shell scripts. Using the plugin "shell", you
+can execute a shell command on post-capture. It's first argument will be the
+newly created image. This is useful for uploading to a web services via ssh,
+or some other thing, without the need to get knee deep inside ruby. 
+
+Additionally, this fork modifies configuration.rb to use a global config
+instead, meaning you do not need to set up shell for each and every one of
+your repositories. Just configure it once, and you're good to go (but you'll 
+need to enable lolcommits on them though).
+
+Enjoy!
+
+(Btw, this probs won't ever be maintained. You can see the actual end of where
+my commits end up at my [website](http://nickwhyte.com/))
+
+-----
+
 # lolcommits (git + webcam = lol)
 
 lolcommits takes a snapshot with your webcam every time you git commit code, and
