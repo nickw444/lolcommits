@@ -18,7 +18,8 @@ module Lolcommits
     end
 
     def configuration_file
-      "#{loldir}/config.yml"
+      "#{loldir}/../config.yml"
+
     end
 
     def loldir
